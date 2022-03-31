@@ -46,13 +46,63 @@ a clone of the board game othello in c++ with a limited cpu opponent
 ```
 ## Class Diagram
 
-# Programming Project Proposal 2 (tic tac toe)
-A description of the project.
+# Programming Project Proposal 2 (beatmania iidx clone)
+a clone of the rhythm game beatmania iidx but in the terminal
+(real time action rhtyhm game)
+
 
 ## GUI Mockup #1 (Start Screen)
-
+```
+|-----------------------|
+|iidx++                 |
+|                       |
+|   <song list>         |
+|  asdfdf               |
+|  asfdasf              |
+|  asfadsgg             |
+|  sagvtb               |
+|                       |
+|                       |
+|                       |
+|                       |
+|                       |
+|                       |
+|-----------------------|
+```
 ## GUI Mockup #2 (Gameplay)
-
+```
+|-----------------------|
+|iidx++                 |
+|                       |
+|                       |
+|   =        =          |
+|                       |
+|         =           = |
+|      =        =  =    |
+|                       |
+|                       |
+|                       |
+|                       |
+|                       |
+|                       |
+|-----------------------|
+```
 ## GUI Mockup #3 (End Screen)
-
+```
+|-----------------------|
+|iidx++                 |
+|                       |
+|                       |
+|                       |
+|     sss     combo:    |
+|                       |
+|    perfects:          |
+|    greats:            |
+|    okays:             |
+|    misses:            |
+|                       |
+|                       |
+|                       |
+|-----------------------|
+```
 ## Class Diagram
