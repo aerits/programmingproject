@@ -1,3 +1,6 @@
+steven mai
+
+
 # Programming Project Proposal 1
 a clone of the board game othello in c++ with a limited cpu opponent
 
