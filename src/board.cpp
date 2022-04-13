@@ -5,4 +5,4 @@ class board {
 		int whitePuckCount;
 		void drawBoard(void);
 		void updateBoard(int x, int y, string mark);
-}
+};
