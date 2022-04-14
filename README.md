@@ -9,7 +9,7 @@ othello in terminal wip
 
 
 completed features
-* nothing
+* start screen (no input)
 
 to do list
 * add the board
