@@ -16,5 +16,3 @@ to do list
 * add input
 * add othello
 * etc...
-
-(project proposals moved to READMEOLD.md)
