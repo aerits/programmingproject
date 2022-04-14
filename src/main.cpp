@@ -1,4 +1,10 @@
-int main() {
+#include <iostream>
+using namespace std;
 
-	return 0
+int main() {
+	return 0;
 };
+
+void startScreen() {
+	
+}
