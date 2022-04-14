@@ -1,3 +1,9 @@
+#include "board.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
 class board {
 	public:
 		string boardSpaces[64];
