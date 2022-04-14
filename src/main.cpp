@@ -9,6 +9,7 @@ void startScreen() {
 void helpScreen() {
 	system("clear");
 	cout << "in othello, the game is based around putting two discs of your color around the opposite color to make it flip into your own color\nthose are the only valid moves\nif you can't do that, you skip your turn\nat the end, the player with the most discs of their color wins\ntip: you can't flip over discs that are in the corner\n";
+	getc(stdin);
 }
 
 void endScreen() {
