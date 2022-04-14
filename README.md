@@ -6,4 +6,13 @@ c++ othello in terminal wip
 * terminal application
 
 
+completed features
+* nothing
+
+to do list
+* add the board
+* add input
+* add othello
+* etc...
+
 (project proposals moved to READMEOLD.md)
