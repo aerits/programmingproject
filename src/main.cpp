@@ -1,6 +1,6 @@
 #include "board.h"
-#include "cpu.h"
-#include "disk.h"
+#include "ai.h"
+#include "disc.h"
 #include <iostream>
 using namespace std;
 
