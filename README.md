@@ -9,11 +9,12 @@ othello in terminal wip
 
 
 completed features
-* start screen (no input)
+* start screen 
 * end screen
+* help screen
 
 to do list
 * add the board
-* add input
+* add input system
 * add othello
 * etc...
