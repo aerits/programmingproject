@@ -24,6 +24,12 @@ int main() {
 	system("clear");
 	startScreen();
 	getline (cin, input);
-	helpScreen();
+	if(input == "1"){
+		input="";
+		cout << "placeholder";
+	} else if(input == "3"){
+		input="";
+		helpScreen();
+	}
 	return 0;
 };
