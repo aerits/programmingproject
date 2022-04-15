@@ -1,4 +1,4 @@
-by steven mai
+steven mai
 
 C++ello
 
