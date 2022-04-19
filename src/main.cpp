@@ -31,5 +31,6 @@ int main() {
 		input="";
 		helpScreen();
 	}
+	endScreen();
 	return 0;
 };
