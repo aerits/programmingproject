@@ -1,11 +1,12 @@
 steven mai
 
+```
  _____
 /  ___\
 | |     ++
 | |____ ello
 \_____/
-
+```
 
 othello in terminal wip
 * standard turn based othello gameplay
