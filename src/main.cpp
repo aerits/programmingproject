@@ -22,6 +22,10 @@ void endScreen() {
 int main() {
 	string input;
 	system("clear");
+	system("cat ../logo.txt");
+	cout << "press any key to continue...";
+	getline (cin, input);
+	system("clear");
 	startScreen();
 	getline (cin, input);
 	if(input == "1"){
@@ -31,6 +35,8 @@ int main() {
 		input="";
 		helpScreen();
 	}
+	system("clear");
 	endScreen();
+	system("cat ../logo.txt");
 	return 0;
 };
