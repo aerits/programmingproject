@@ -21,9 +21,11 @@ void endScreen() {
 
 int main() {
 	string input;
+	bool playing = true;
 	system("clear");
 	system("cat ../logo.txt");
 	cout << "press any key to continue...";
+	while(playing){
 	getline (cin, input);
 	system("clear");
 	startScreen();
@@ -32,9 +34,10 @@ int main() {
 		input="";
 		cout << "placeholder";
 	} else if(input == "3"){
-		input="";
 		helpScreen();
-	}
+	} else {
+		playing=false;
+	}}
 	system("clear");
 	endScreen();
 	system("cat ../logo.txt");
