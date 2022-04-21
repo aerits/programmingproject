@@ -18,6 +18,7 @@ completed features
 * start screen 
 * end screen
 * help screen
+* cool logo that was hackily implemented too lazy to implement it better
 
 to do list
 * add the board
