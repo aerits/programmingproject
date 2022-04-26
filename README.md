@@ -19,6 +19,7 @@ completed features
 * end screen
 * help screen
 * cool logo that was hackily implemented too lazy to implement it better
+* board function: setting board spots, getting board spots, setting up the board for a game, drawing the board
 
 to do list
 * add the board
