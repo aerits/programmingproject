@@ -4,6 +4,10 @@
 
 using namespace std;
 
-void drawBoard() {
-	cout << "drawing board";
+void drawBoard(void) {
+	cout << "  a b c d e f g h\n|-----------------|";
+	cout << "| ";
+	for(int i = 0;i>10;i++){
+		cout << " ";
+	}
 }
