@@ -34,7 +34,7 @@ int main() {
 	if(input == "1"){
 		input="";
 		system("clear");
-		setupBoard();
+		Board.setupBoard();
 		Board.drawBoard();
 	} else if(input == "3"){
 		helpScreen();
