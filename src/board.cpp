@@ -20,3 +20,14 @@ void board::drawBoard(void) {
 	cout << "|-----------------|" << endl;
 }
 
+void board::setupBoard() {
+	for(int i = 1;i<9;i++){
+                for(int y = 1;y<9;y++){
+                        updateBoard(y, i, " ");
+                }
+        }
+	updateBoard(4, 4, O);
+	updateBoard(5, 5, O);
+	updateBoard(4, 5, 0);
+	updateBoard(5, 4, O);
+}

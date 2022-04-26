@@ -21,11 +21,6 @@ void endScreen() {
 
 int main() {
 	board Board;
-	for(int i = 1;i<8;i++){
-		for(int y = 1;y<8;y++){
-			Board.updateBoard(y, i, "0");
-		}
-	}
 	string input;
 	bool playing = true;
 	system("clear");
@@ -38,6 +33,8 @@ int main() {
 	getline (cin, input);
 	if(input == "1"){
 		input="";
+		system("clear");
+		setupBoard();
 		Board.drawBoard();
 	} else if(input == "3"){
 		helpScreen();
