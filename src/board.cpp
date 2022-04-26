@@ -20,6 +20,10 @@ void board::drawBoard(void) {
 	cout << "|-----------------|" << endl;
 }
 
+string board::checkSpace(int x, int y) {
+	return BoardSpaces[((y-1)*8)+x];
+}
+
 void board::setupBoard() {
 	for(int i = 1;i<9;i++){
                 for(int y = 1;y<9;y++){
