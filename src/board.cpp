@@ -17,5 +17,6 @@ void board::drawBoard(void) {
         	}
 		cout << " | " << a+1 << endl;
 	}
+	cout << "|-----------------|" << endl;
 }
 
