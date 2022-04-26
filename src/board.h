@@ -10,7 +10,7 @@ class board {
 		void drawBoard(void);
                 void updateBoard(int x, int y, string mark);
                 void setBlackPuckCount(int num);
-		string BoardSpaces[63];
+		string BoardSpaces[64];
 		int blackPuckCount;
 		int whitePuckCount;
 };
