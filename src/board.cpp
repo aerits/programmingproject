@@ -5,7 +5,7 @@
 using namespace std;
 
 void board::updateBoard(int x, int y, string mark) {
-        BoardSpaces[(y*8)+x-1] = mark;
+        BoardSpaces[((y-1)*8)+x-1] = mark;
 }
 
 void board::drawBoard(void) {
