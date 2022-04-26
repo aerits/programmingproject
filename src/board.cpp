@@ -26,8 +26,8 @@ void board::setupBoard() {
                         updateBoard(y, i, " ");
                 }
         }
-	updateBoard(4, 4, O);
-	updateBoard(5, 5, O);
-	updateBoard(4, 5, 0);
-	updateBoard(5, 4, O);
+	updateBoard(4, 4, "O");
+	updateBoard(5, 5, "O");
+	updateBoard(4, 5, "0");
+	updateBoard(5, 4, "0");
 }
