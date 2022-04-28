@@ -19,3 +19,5 @@ void disc::setColor(string color, bool on){
 	value=color;
 	onBoard = on;
 }
+
+bool validMove(int x2, int y2)
