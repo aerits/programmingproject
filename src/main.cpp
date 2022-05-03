@@ -19,6 +19,9 @@ void endScreen() {
 	cout << "  a b c d e f g h\n|-----------------| \n|                 | 1\n|                 | 2\n|                 | 3\n|     game end    | 4\n|                 | 5\n|    1. play again| 6\n|    2. quit      | 7\n|                 | 8\n|-----------------|\n" << "thanks for playing\nwhite:\nblack:\n" << flush;
 }
 
+void setupBoard(){
+}
+
 int main() {
 	board Board;
 	string input;
