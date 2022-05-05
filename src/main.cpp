@@ -1,4 +1,6 @@
 #include<iostream>
+#include<vector>
+#include<iterator>
 #include "board.h"
 #include "ai.h"
 #include "disc.h"
@@ -22,10 +24,55 @@ void endScreen() {
 void setupBoard(){
 }
 
+void vidyagaming(board brd){
+	int turn=0;
+	string input;
+	string inputx, inputy;
+	int inputwhy;
+	bool startOfInput=true;
+	const char *str = "abcdefgh"
+	while(true){
+		if(turn==0){
+			startOfInput=true;
+			inputx="";
+			inputy="";
+			system("clear");
+			brd.drawBoard();
+			cout << "blacks turn\nmove>";
+			getline (cin, input);
+			
+			//split up input into x and y
+			for(string::iterator i=input.begin();i!=input.end();i++){
+				if(*i==' '){
+					startOfInput=false;
+					++i;
+				}
+				if(startOfInput) {
+					inputy=inputy+*i;
+				} else{
+					inputx=inputx+*i;
+				}
+			}
+			
+			
+			
+			brd.updateBoard(stoi(inputx), stoi(inputy),"0", true);
+			turn=1;
+		}	
+		else if(turn==1){
+			system("clear");
+			brd.drawBoard();
+			cout << "whites turn\nmove>";
+			getline (cin, input);
+			turn=0;
+		}
+	}
+}
+
 int main() {
 	board Board;
 	string input;
-	bool playing = true;
+	bool playing=true;
 	system("clear");
 	system("cat ../logo.txt");
 	cout << "press any key to continue...";
@@ -39,6 +86,7 @@ int main() {
 		system("clear");
 		Board.setupBoard();
 		Board.drawBoard();
+		vidyagaming(Board);
 	} else if(input == "3"){
 		helpScreen();
 	} else {
