@@ -30,7 +30,7 @@ void vidyagaming(board brd){
 	string inputx, inputy;
 	int inputwhy;
 	bool startOfInput=true;
-	const char *str = "abcdefgh"
+	const char *str = "abcdefgh";
 	while(true){
 		if(turn==0){
 			startOfInput=true;
@@ -54,9 +54,10 @@ void vidyagaming(board brd){
 				}
 			}
 			
+			char target = inputy[0];
+			const char *result = str;
 			
-			
-			brd.updateBoard(stoi(inputx), stoi(inputy),"0", true);
+			brd.updateBoard(stoi(inputx), stoi(inputy), "0", true);
 			turn=1;
 		}	
 		else if(turn==1){
