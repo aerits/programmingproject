@@ -13,6 +13,7 @@ othello in terminal wip
 * dumb ai
 * terminal application
 
+WAS TESTED ON MAC, UTILIZES BASH COMMANDS
 
 completed features
 * start screen 
