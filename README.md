@@ -56,3 +56,5 @@ WAS TESTED ON MAC AND LINUX, UTILIZES BASH COMMANDS, MAY OR MAY NOT WORK ON WIND
 1. Type in `cd Downloads/programmingproject-main/app`
 2. Make the program executable with `chmod +x main`
 3. Run the program with `./main`
+
+### may or may not run on Mac because of it being not from a verified dev
