@@ -68,8 +68,9 @@ I have not tested this on Windows, so just use it on Mac or Linux.
 
 # Guide to Compiling
 
-Assuming that you have already downloaded and unzipped the source code and have the terminal open
-This can circumvent the problem of it not being from a verified developer
+Assuming that you have already downloaded and unzipped the source code and have the terminal open.
+
+This can circumvent the problem of it not being from a verified developer.
 
 ## Navigating to the File
 
