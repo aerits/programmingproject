@@ -28,9 +28,9 @@ WAS TESTED ON MAC AND LINUX, UTILIZES BASH COMMANDS, MAY OR MAY NOT WORK ON WIND
 * add othello
 * etc...
 
-# GUIDE TO USING
+# Guide to Running the C++thello
 
-## Download the program
+## Download C++thello
 
 1. Click the green "Code" button
 2. Click download zip
