@@ -62,9 +62,9 @@ I have not tested this on Windows, so just use it on Mac or Linux.
 
 1. Type in `cd Downloads/programmingproject-main/app`
 2. Make the program executable with `chmod +x main`
-3. Run the program with `./main`
+3. Run the program with `./main`[^2]
 
-### may or may not run on Mac because of it being not from a verified developer
+[^2]: may or may not run on Mac because of it being not from a verified developer
 
 # Guide to Compiling
 
