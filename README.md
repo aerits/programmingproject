@@ -8,6 +8,12 @@ steven mai
 \_____/
 ```
 
+# What is Othello?
+
+Othello, a variant of the board game Reversi with a fixed initial setup of the board. Reversi is a is a strategy board game for two players, played on an 8×8 uncheckered board.[^1]
+
+[^1]: https://en.wikipedia.org/wiki/Reversi
+
 # othello in terminal wip
 * standard turn based othello gameplay
 * dumb ai
