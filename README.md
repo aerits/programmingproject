@@ -37,14 +37,14 @@ I have not tested this on Windows, so just use it on Mac or Linux.
 
 # Guide to Running the C++thello
 
-## Download C++thello
+## Downloading C++thello
 
 1. Click the green "Code" button
 2. Click download zip
 3. Unzip the zip into your Downloads folder
    * Typically you can do that by double clicking onto it
 
-## Open up the terminal (on linux or mac)
+## Opening up the terminal (on linux or mac)
 
 ### Mac
 
@@ -58,10 +58,25 @@ I have not tested this on Windows, so just use it on Mac or Linux.
 2. Type in "terminal"
 3. Hit enter / return
 
-## Navigate to the File
+## Navigating to the File
 
 1. Type in `cd Downloads/programmingproject-main/app`
 2. Make the program executable with `chmod +x main`
 3. Run the program with `./main`
 
-### may or may not run on Mac because of it being not from a verified dev
+### may or may not run on Mac because of it being not from a verified developer
+
+# Guide to Compiling
+
+Assuming that you have already downloaded and unzipped the source code and have the terminal open
+This can circumvent the problem of it not being from a verified developer
+
+## Navigating to the File
+
+Type in `cd Downloads/programmingproject-main/src`
+
+## Compiling
+
+1. Compile with the command `g++ *cpp -o main`
+2. Run with `./main`
+
