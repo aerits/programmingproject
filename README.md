@@ -21,6 +21,7 @@ completed features
 * help screen
 * cool logo that was hackily implemented too lazy to implement it better
 * board function: setting board spots, getting board spots, setting up the board for a game, drawing the board
+* black can place discs somehow
 
 to do list
 * add input system
