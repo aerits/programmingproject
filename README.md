@@ -54,4 +54,5 @@ WAS TESTED ON MAC AND LINUX, UTILIZES BASH COMMANDS, MAY OR MAY NOT WORK ON WIND
 ## Navigate to the File
 
 1. Type in `cd Downloads/programmingproject-main/app`
-2. Run the program with `./main`
+2. Make the program executable with `chmod +x main`
+3. Run the program with `./main`
