@@ -16,12 +16,11 @@ There are sixty-four identical game pieces called disks, which are light on one 
 
 [^1]: Source: https://en.wikipedia.org/wiki/Reversi
 
-# othello in terminal wip
-* standard turn based othello gameplay
-* dumb ai
-* terminal application
+# C++thello
 
-WAS TESTED ON MAC AND LINUX, UTILIZES BASH COMMANDS, MAY OR MAY NOT WORK ON WINDOWS
+C++thello is an open source terminal based implementation of Othello.
+
+I have not tested this on Windows, so just use it on Mac or Linux.
 
 # completed features
 * start screen 
