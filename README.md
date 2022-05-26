@@ -35,6 +35,9 @@ I have not tested this on Windows, so just use it on Mac or Linux.
 * add othello
 * etc...
 
+# Working on
+* input system to work with both numbers and letters
+
 # Guide to Running the C++thello
 
 ## Downloading C++thello
