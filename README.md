@@ -22,7 +22,7 @@ C++thello is an open source terminal based implementation of Othello.
 
 I have not tested this on Windows, so just use it on Mac or Linux.
 
-# completed features
+# Completed features
 * start screen 
 * end screen
 * help screen
@@ -30,7 +30,7 @@ I have not tested this on Windows, so just use it on Mac or Linux.
 * board function: setting board spots, getting board spots, setting up the board for a game, drawing the board
 * black can place discs somehow
 
-# to do list
+# To-Do list
 * add input system
 * add othello
 * etc...
